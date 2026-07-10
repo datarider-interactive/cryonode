@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - Cryonode</title>
+<style>
+  :root{
+    --bg:#0B0F16; --panel:#111725; --ink:#C7D0D9; --dim:#8A95A5;
+    --gold:#E9C55E; --cyan:#2CE0F0; --green:#46E846; --line:#26314A;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:ui-monospace,"Cascadia Code","Consolas","Courier New",monospace;
+    line-height:1.7; font-size:16px;
+  }
+  .wrap{max-width:840px; margin:0 auto; padding:32px 20px 80px}
+  header.masthead{
+    border:1px solid var(--line); background:linear-gradient(180deg,#121a2b,#0d1320);
+    padding:22px 24px; margin-bottom:28px; position:relative;
+  }
+  header.masthead::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--cyan)}
+  .brand{color:var(--gold); font-size:26px; letter-spacing:2px; font-weight:700; margin:0}
+  .brand small{display:block; color:var(--dim); font-size:13px; letter-spacing:1px; margin-top:4px; font-weight:400}
+  .doctitle{color:var(--green); font-size:14px; margin-top:14px; letter-spacing:1px}
+  .meta{color:var(--dim); font-size:13px; margin:18px 0 0; padding-top:14px; border-top:1px solid var(--line)}
+  .meta b{color:var(--ink); font-weight:600}
+  nav.bar{margin:18px 0 0; font-size:13px}
+  nav.bar a{color:var(--cyan); text-decoration:none; border-bottom:1px dotted var(--cyan)}
+  nav.bar a:hover{color:#8af3ff}
+  h2{color:var(--gold); font-size:19px; margin:38px 0 10px; letter-spacing:.5px}
+  h2::before{content:"> "; color:var(--green)}
+  p{margin:12px 0}
+  a{color:var(--cyan)}
+  hr{border:0; border-top:1px solid var(--line); margin:30px 0}
+  ul{padding-left:22px}
+  li{margin:8px 0}
+  strong{color:#EAF0F7}
+  .tablewrap{overflow-x:auto; border:1px solid var(--line); margin:16px 0}
+  table{border-collapse:collapse; width:100%; min-width:640px; font-size:13.5px}
+  th,td{border:1px solid var(--line); padding:10px 12px; text-align:left; vertical-align:top}
+  th{background:#0e1524; color:var(--gold); letter-spacing:.5px}
+  tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+  footer{margin-top:46px; padding-top:16px; border-top:1px solid var(--line); color:var(--dim); font-size:13px}
+  footer a{color:var(--cyan)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <h1 class="brand">CRYONODE<small>Cyber Mines</small></h1>
+    <div class="doctitle">PRIVACY POLICY</div>
+    <div class="meta">
+      <b>Effective date:</b> July 9, 2026<br>
+      <b>App:</b> Cryonode ("the App")<br>
+      <b>Developer:</b> Datarider Interactive ("we", "us")<br>
+      <b>Contact:</b> <a href="mailto:datarider.interactive@gmail.com">datarider.interactive@gmail.com</a>
+    </div>
+    <nav class="bar"><a href="terms.html">View Terms of Service &rarr;</a></nav>
+  </header>
+
+  <h2>Summary (plain language)</h2>
+  <p>Cryonode is an offline-first single-player game. <strong>We do not run our own servers and we do not collect your personal information ourselves.</strong> The App works fully offline; the only features that use the network are third-party ads and, optionally, Google Play services. Those third parties collect limited data as described below. The in-game "circuits" are a virtual token with <strong>no real-world money value</strong> and are never bought, sold, cashed out, or exchanged for money.</p>
+
+  <hr>
+
+  <h2>What data is involved, and who collects it</h2>
+  <p>We (the developer) do not operate a backend and do not receive or store your data. The following third-party SDKs, when enabled in a released build, collect data under their own privacy policies:</p>
+  <div class="tablewrap">
+  <table>
+    <thead>
+      <tr><th>Source</th><th>Data</th><th>Purpose</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>AppLovin MAX</strong> (ad mediation)</td>
+        <td>Advertising ID, coarse device and network info, ad-interaction signals</td>
+        <td>Serve and measure ads</td>
+        <td>AppLovin runs a real-time auction across partner ad networks (see below). Only when ads are enabled. See AppLovin's privacy policy.</td>
+      </tr>
+      <tr>
+        <td><strong>AppLovin mediation partner networks</strong> (e.g. Google AdMob, Meta Audience Network, Unity Ads, ironSource, Mintegral)</td>
+        <td>Advertising ID, device identifiers, coarse location, ad-interaction signals</td>
+        <td>Serve and measure ads</td>
+        <td>Each auction winner may collect data under its own privacy policy. A full list of AppLovin's mediation partners is available on AppLovin's website. Only active when ads are live.</td>
+      </tr>
+      <tr>
+        <td><strong>Google Play Billing</strong></td>
+        <td>Account-linked identifiers, purchase status</td>
+        <td>Process and restore optional one-time purchases</td>
+        <td>Only if you make a purchase. See Google's privacy policy.</td>
+      </tr>
+      <tr>
+        <td><strong>Google Play Services</strong> (including the User Messaging Platform for consent management, Play In-App Review, and Play Billing)</td>
+        <td>App version, device type, Google account identifier, consent signals</td>
+        <td>Manage consent, provide Play Store features (review prompt, purchases)</td>
+        <td>Only where Google Play Services are available. See Google's privacy policy.</td>
+      </tr>
+      <tr>
+        <td><strong>On-device storage (DataStore)</strong></td>
+        <td>Your game progress (circuits, cosmetics, stats, settings)</td>
+        <td>Save your game on your device</td>
+        <td>Stored locally on your device only; not transmitted to us. May be included in Android's standard Auto Backup to your own Google account if you have that enabled.</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Although we run no servers and store none of this data ourselves, for the data collected inside the App to show ads we act as a data controller (in some cases jointly with the ad partners) under the EU and UK GDPR. We will help you exercise your rights over that data (see Your rights).</p>
+  <p>We do <strong>not</strong> collect names, email addresses, contacts, location, photos, or messages.</p>
+  <p>The App does <strong>not currently include an analytics SDK</strong>, and we do not collect usage analytics ourselves. Dedicated <strong>crash reporting</strong> (for example Firebase Crashlytics) is likewise <strong>not currently enabled</strong>; basic crash and performance data may still be available to us through standard Google Play (Android vitals). If we later add an analytics or crash-reporting SDK, or otherwise change what is collected, this policy and the Play Data Safety form will be updated before that build ships.</p>
+
+  <hr>
+
+  <h2>How the data is used</h2>
+  <p>Third parties use the data above to serve and measure ads, provide optional Google Play features (purchases, review prompts), and manage consent. We do not receive or process personal data ourselves.</p>
+
+  <hr>
+
+  <h2>Sharing</h2>
+  <p>We do not sell your personal information for money. However, when personalized ads are enabled, the sharing of identifiers such as your Advertising ID with ad partners for targeted advertising may be considered a "sale" or "share" of personal information under certain US state privacy laws (for example, the California Consumer Privacy Act, as amended by the CPRA). You can opt out of this sharing at any time, for free: where a consent prompt is shown (for example the EEA and UK), decline ad personalization; in US states with opt-out rights, turn on "Do not sell or share my info" in the App's Settings (under About), or use your device's ad-personalization and Advertising ID controls; and you can reset or delete your Advertising ID in your device settings at any time. You never have to pay to exercise a privacy right (buying Remove Ads also stops ads entirely, but that is a product choice, not a condition of opting out). Aside from these advertising partners and the Google services listed above (each acting as an independent data controller under its own policy), we share nothing else.</p>
+
+  <hr>
+
+  <h2>Advertising and consent</h2>
+  <p>Where required by law (for example the EEA and UK), the App presents a consent prompt before personalized ads are shown, and ad personalization is gated on your choice. In US states that provide opt-out rights, you can opt out of personalized ads and of the sharing described above by turning on "Do not sell or share my info" in the App's Settings (under About), or by using your device's ad-personalization and Advertising ID controls. If you decline personalization, non-personalized ads are shown instead - ads are not removed entirely. To remove ads entirely, use the Remove Ads purchase in Settings. EEA and UK users can revisit their consent choice at any time via "Manage Ad Consent" in Settings.</p>
+
+  <hr>
+
+  <h2>Legal bases for processing (EEA and UK)</h2>
+  <p>Where the EU or UK GDPR applies, we and our partners rely on these legal bases: your <strong>consent</strong> for personalized advertising (Article 6(1)(a)); the <strong>legitimate interests</strong> of us and our ad partners in serving and measuring non-personalized ads and in keeping the App working and secure (Article 6(1)(f)); and <strong>performance of a contract</strong> to process any optional purchase you make (Article 6(1)(b)). You can withdraw consent at any time (see Your rights), without affecting processing already carried out.</p>
+
+  <hr>
+
+  <h2>International data transfers</h2>
+  <p>AppLovin, its mediation partner networks, and Google may transfer and process data outside your country, including in the United States. These transfers are made under appropriate safeguards, including standard contractual clauses approved by the European Commission and the UK government. For more information, see AppLovin's and Google's respective privacy policies.</p>
+
+  <hr>
+
+  <h2>Children</h2>
+  <p>The App is not directed to children under 18. It uses a simulated gambling game mechanic and is rated accordingly. On first launch the App asks for your date of birth solely to confirm you are 18 or older; this age check runs on your device, we store only whether it passed (never your date of birth), and it is not transmitted to us or any third party. It is a self-declared check, not identity verification. We do not knowingly collect personal information from children. If you believe a child has provided information, contact us and we will address it.</p>
+
+  <hr>
+
+  <h2>Data retention and deletion</h2>
+  <p>Game progress lives on your device; uninstalling the App removes it, subject to any Google Auto Backup you have enabled, which you control from your Google account. You can also clear local data from Settings ("Reset local data"). We ourselves retain no personal data, as we run no servers. Ad and purchase data are held only by the providers above, for the periods set out in their own privacy policies. To request deletion of data held by a provider, use that provider's controls, or contact us and we will help direct the request.</p>
+
+  <hr>
+
+  <h2>Your rights</h2>
+  <p>Depending on your region you may have the following rights regarding your personal data:</p>
+  <ul>
+    <li><strong>Access</strong> - the right to obtain a copy of the data held about you.</li>
+    <li><strong>Rectification</strong> - the right to have inaccurate data corrected.</li>
+    <li><strong>Erasure</strong> - the right to request deletion of your data ("right to be forgotten").</li>
+    <li><strong>Restriction</strong> - the right to limit how your data is processed.</li>
+    <li><strong>Portability</strong> - the right to receive your data in a portable format.</li>
+    <li><strong>Objection</strong> - the right to object to processing based on legitimate interests.</li>
+    <li><strong>Withdrawal of consent</strong> - the right to withdraw consent at any time, without affecting the lawfulness of processing before withdrawal. You can change your ad-personalization consent (for example, switching from personalized to non-personalized ads) through the "Manage Ad Consent" option in Settings, where available. Withdrawing consent means ads remain but are no longer personalized. To remove ads entirely, see the Remove Ads purchase in Settings.</li>
+    <li><strong>Complaint</strong> - the right to lodge a complaint with a data protection supervisory authority. In Canada, contact the Office of the Privacy Commissioner of Canada (priv.gc.ca). In the EU, contact your local Data Protection Authority. In the UK, contact the Information Commissioner's Office (ico.org.uk).</li>
+  </ul>
+  <p>The ad and purchase data are held by Google and AppLovin, so many requests are fastest through their privacy controls. As a controller for the data collected in the App to show ads, we will also help you make any request: contact us at <a href="mailto:datarider.interactive@gmail.com">datarider.interactive@gmail.com</a> and we will assist or direct it.</p>
+
+  <hr>
+
+  <h2>Changes</h2>
+  <p>We may update this policy; the "Effective date" will change and material updates will be surfaced in the App or store listing. Continued use after an update means you accept the revised policy.</p>
+
+  <hr>
+
+  <h2>Contact</h2>
+  <p>Questions or requests: <a href="mailto:datarider.interactive@gmail.com">datarider.interactive@gmail.com</a></p>
+
+  <footer>
+    Datarider Interactive &middot; Cryonode &middot;
+    <a href="terms.html">Terms of Service</a>
+  </footer>
+</div>
+</body>
+</html>
