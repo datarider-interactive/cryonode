@@ -53,7 +53,7 @@
     <h1 class="brand">CRYONODE<small>Cyber Mines</small></h1>
     <div class="doctitle">PRIVACY POLICY</div>
     <div class="meta">
-      <b>Effective date:</b> July 12, 2026<br>
+      <b>Effective date:</b> July 21, 2026<br>
       <b>App:</b> Cryonode ("the App")<br>
       <b>Developer:</b> Datarider Interactive ("we", "us")<br>
       <b>Contact:</b> <a href="mailto:datarider.interactive@gmail.com">datarider.interactive@gmail.com</a>
@@ -62,7 +62,7 @@
   </header>
 
   <h2>Summary (plain language)</h2>
-  <p>Cryonode is an offline-first single-player game. <strong>We do not run our own servers and we do not collect your personal information ourselves.</strong> The App works fully offline; the only features that use the network are third-party ads and, optionally, Google Play services. Those third parties collect limited data as described below. The in-game "circuits" are a virtual token with <strong>no real-world money value</strong> and are never bought, sold, cashed out, or exchanged for money.</p>
+  <p>Cryonode is an offline-first single-player game. <strong>We do not run our own servers and we do not collect your personal information ourselves.</strong> The App works fully offline; the only features that use the network are third-party ads, crash reporting, and, optionally, Google Play services. Those third parties collect limited data as described below. The in-game "circuits" are a virtual token with <strong>no real-world money value</strong> and are never bought, sold, cashed out, or exchanged for money.</p>
 
   <hr>
 
@@ -105,6 +105,12 @@
         <td>Optional; automatic only if you are signed in to Google Play Games. Leaderboard scores are visible to other players. If you are signed out or decline, the App works fully and these features are inactive. See Google's privacy policy.</td>
       </tr>
       <tr>
+        <td><strong>Firebase Crashlytics</strong> (crash and error reporting)</td>
+        <td>Crash stack traces plus non-personal diagnostic context (game mode, grid size, app version, device model and OS, settings state)</td>
+        <td>Diagnose and fix crashes and errors, and monitor app stability</td>
+        <td>Consent-gated: off by default and active only after you have consented (where a consent prompt applies). Collects no names, email, location, or advertising ID. Data is processed by Google/Firebase on our behalf. See Google's (Firebase's) privacy policy.</td>
+      </tr>
+      <tr>
         <td><strong>On-device storage (DataStore)</strong></td>
         <td>Your game progress (circuits, cosmetics, stats, settings)</td>
         <td>Save your game on your device</td>
@@ -115,7 +121,7 @@
   </div>
   <p>Although we run no servers and store none of this data ourselves, for the data collected inside the App to show ads we act as a data controller (in some cases jointly with the ad partners) under the EU and UK GDPR. We will help you exercise your rights over that data (see Your rights).</p>
   <p>We do <strong>not</strong> collect names, email addresses, contacts, location, photos, or messages.</p>
-  <p>The App does <strong>not currently include an analytics SDK</strong>, and we do not collect usage analytics ourselves. Dedicated <strong>crash reporting</strong> (for example Firebase Crashlytics) is likewise <strong>not currently enabled</strong>; basic crash and performance data may still be available to us through standard Google Play (Android vitals). If we later add an analytics or crash-reporting SDK, or otherwise change what is collected, this policy and the Play Data Safety form will be updated before that build ships.</p>
+  <p>The App does <strong>not include a general usage-analytics SDK</strong>, and we do not collect usage analytics ourselves. The App <strong>does include Firebase Crashlytics</strong> for crash and error reporting (see the table above): it is <strong>consent-gated</strong> - off by default and activated only after you have consented, where a consent prompt applies - and it collects crash reports plus non-personal diagnostic context, never your name, email, location, or advertising ID. Basic crash and performance data may also be available to us through standard Google Play (Android vitals). If we add a usage-analytics SDK or otherwise change what is collected, this policy and the Play Data Safety form will be updated before that build ships.</p>
 
   <hr>
 
