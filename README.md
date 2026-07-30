@@ -10,6 +10,12 @@ These pages are hosted with GitHub Pages and linked from the Google Play listing
 - [Terms of Service](terms.html)
 - [Data Deletion](deletion.html)
 
+## Documents en français
+
+- [Politique de confidentialité](privacy-fr.html)
+- [Conditions d'utilisation](terms-fr.html)
+- [Suppression des données](deletion-fr.html)
+
 ## About the app
 
 Cryonode is an offline-first single-player game. The in-game "circuits" token has no real-world money value and can never be bought, cashed out, or exchanged for money.
